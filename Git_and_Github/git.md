@@ -1,8 +1,8 @@
 ## Git
 
-[TOC]
 
-### 1. Git 설치
+
+## 1. Git 설치
 
 - git 공식 홈페이지 : https://git-scm.com/
 - Windows
