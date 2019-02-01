@@ -1,22 +1,56 @@
-## Git
-
-
+## Git intall & setting
 
 ## 1. Git 설치
 
 - git 공식 홈페이지 : https://git-scm.com/
+
 - Windows
   - 공식 홈페이지에서 git 설치 파일을 다운로드 후 실행하여 설치
   - Git bash 프로그램을 실행
   - git 명령의 결과로 git 사용 방법에 관한 안내가 나타나면 정상적으로 설치 된것임.
+
 - Linux
   - 기본적으로 설치되어 있는 경우가 많음
   - 설치되지 않은 경우 운영체제에 따라 sudo apt-get install git 또는 sudo yum install git 을 수행하여 설치
 
+  ​
+
+- **Git 최초 설정** 
+
+  - **사용자 정보**
+    사용자 이름과 이메일을 git에 등록해줘야 함 (최초 1번만 해주면 됨) 
+    이 정보는 커밋할 때마다 이용되고, 한번 커밋한 후에는 변경이 불가능함
+
+    ```shell
+    $ git config --global user.name "이름"
+    $ git config --global user.email abc@example.com
+    ```
+
+  - **편집기 (필수 X)**
+    Git에서 사용할 텍스트 편집기를 설정 (기본적으로 시스템의 기본 편집기를 이용)
+
+    ```shell
+    $ git config --global core.editor emacs
+    ```
+
+  - **Diff 도구 (필수 X)**
+    Merge 충돌을 해결하기 위해 사용하는 Diff 도구 설정
+
+    ```shell
+    $ git config --global merge.tool vimdiff
+    ```
+
+  - **설정 확인**
+
+    `git config --list` 명령을 실행하여 설정 확인 가능
+
+    ​
 
 
 
-### 2. 저장소 만들기
+## 2. Git 시작하기
+
+### 2-1. Local 에서 repository 만들어서 시작
 
 - 현재 디렉토리를 버전 저장소로 만들기
 
@@ -29,6 +63,10 @@
   - 버전관리 관련 정보를 저장하는 디렉토리
 
 ![1538376663167](C:\Users\my\AppData\Local\Temp\1538376663167.png)
+
+### 2-2. Github에서 repository 가져와서 시작
+
+- ​
 
 
 
@@ -53,9 +91,8 @@
 ### 4. 버전 만들기 (commit)
 
 - 버전 : 의미 있는 변화
-- 버전을 생성하기 전, user name과 user email을 git에 등록해줘야 함 (최초 1번만 해주면 됨)
+- ​
 
-![1538961944305](C:\Users\my\AppData\Local\Temp\1538961944305.png)
 
 - git commit 명령을 하면 vim이 켜지고, 여기에 commit message를 입력하고 저장 후 종료(:wq) 함
 
