@@ -7,14 +7,20 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 ## Categories
 
 * [Git](#Git)
-
-
+* [Hadoop](#Hadoop)
 
 
 ### Git
 * [Git install & setting](Git/Git_InstallAndSetting.md)
 * [Git getting started](Git/Git_GettingStarted.md)
 
+
+
+
+### Hadoop
+
+- [Hadoop Install](Hadoop/hadoop_install.md)
+- [Rack Setting](hadoop_rack_setting.md)
 
 
 ## About

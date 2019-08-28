@@ -49,9 +49,6 @@
     ​
 
 
-- ​
-
-
 
 ### 3. git이 관리할 대상으로 파일 등록
 
@@ -62,13 +59,10 @@
 
 - git add 를 통해 파일을 추적하도록 명령
 
-  - git add 명령 수행 전![1538395181221](C:\Users\my\AppData\Local\Temp\1538395181221.png)
-
-  - git add 명령 수행 후
-
-    ![1538395227150](C:\Users\my\AppData\Local\Temp\1538395227150.png)
+  - ​
 
     ​
+
 
 
 ### 4. 버전 만들기 (commit)
