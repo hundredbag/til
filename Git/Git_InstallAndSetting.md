@@ -1,5 +1,6 @@
-## Git intall & setting
+# Git intall & setting
 
+### Git install
 - git 공식 홈페이지 : https://git-scm.com/
 
 - Windows
@@ -11,9 +12,9 @@
   - 기본적으로 설치되어 있는 경우가 많음
   - 설치되지 않은 경우 운영체제에 따라 ```sudo apt-get install git``` 또는 ```sudo yum install git``` 을 수행하여 설치
 
-  ​
 
-- **Git 최초 설정** 
+
+## Git 최초 설정
 
   - **사용자 정보**
 
