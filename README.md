@@ -7,12 +7,17 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 ## Categories
 
 * [Git](#Git)
+
 * [Hadoop](#Hadoop)
+
+* [PostgreSQL](#PostgreSQL)
+
+  ​
 
 
 ### Git
 * [Git install & setting](Git/Git_InstallAndSetting.md)
-* [Git getting started](Git/Git_GettingStarted.md)
+* [Git Basic](Git/Git_basic.md)
 
 
 
@@ -20,7 +25,14 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 ### Hadoop
 
 - [Hadoop Install](Hadoop/hadoop_install.md)
-- [Rack Setting](hadoop_rack_setting.md)
+- [HDFS Rack Setting](hdfs_rack_setting.md)
+
+
+
+### PostgreSQL
+
+
+
 
 
 ## About
