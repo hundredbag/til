@@ -1,8 +1,8 @@
-# HDFS Rack Setting
+# Configuring HDFS rack awareness
 
-The Namenode maintains rack IDs of all the Datanodes.
+[원문 : hotronworks - Configuring HDFS rack awareness](https://docs.hortonworks.com/HDPDocuments/HDP3/HDP-3.1.0/data-storage/content/improving_performance_with_hdfs_rack_awareness.html)
 
-Block Placement during read/write operations.
+The NameNode in an HDFS cluster maintains rack IDs of all the DataNodes. The NameNode uses this information about the distribution of DataNodes among various racks in the cluster to select the closer DataNodes for effective block placement during read/write operations. This concept of selecting the closer DataNodes based on their location in the cluster is termed as rack awareness. Rack awareness helps in maintaining fault tolerance in the event of a failure.
 
 
 
@@ -12,7 +12,7 @@ HDFS는 노드들의 Rack location 정보를 결정하기 위해 executable topo
 
 **Steps**
 
-1. **Executable topology script 와 topology data file을 생성한다.**
+1. Executable topology script 와 topology data file을 생성한다.
 
    ex) example topology script ```rack-topology.sh```
 
@@ -73,9 +73,9 @@ HDFS는 노드들의 Rack location 정보를 결정하기 위해 executable topo
    192.168.2.12 03
    ```
 
-2. **Topology script 와 data file을 모든 클러스터 노드의** ```/etc/hadoop/conf``` **디렉토리에 복사**
+2. Topology script 와 data file을 모든 클러스터 노드의 ```/etc/hadoop/conf``` 디렉토리에 복사
 
-3. **Topology script를 실행해서 올바른 Rack 정보가 return 되는지 확인**
+3. Topology script를 실행해서 올바른 Rack 정보가 return 되는지 확인
 
    ```shell
    $./rack-topology.sh 192.168.2.10
@@ -120,14 +120,14 @@ Rack awareness가 동작하는지 확인할 필요가 있다.
 
 **Steps**
 
-1.  `/var/log/hadoop/hdfs/` **의 NameNode 로그를 확인한다.**
+1. `/var/log/hadoop/hdfs/` 의 NameNode 로그를 확인한다.
 
    ```
    014-01-13 15:58:08,495 INFO org.apache.hadoop.net.NetworkTopology: Adding
                            a new node: /rack01/<ipaddress>
    ```
 
-2. `hdfs fsck ` **명령으로 확인** (Number of racks)
+2. `hdfs fsck ` 명령으로 확인 (Number of racks)
 
    ```
    Status: HEALTHY  
@@ -148,7 +148,7 @@ Rack awareness가 동작하는지 확인할 필요가 있다.
    FSCK ended at Mon Jan 13 17:10:51 UTC 2014 in 1 milliseconds
    ```
 
-3. `hdfs dfsadmin -report`**명령으로 각 데이터노드가 Rack 정보를 가지는지 확인**
+3. `hdfs dfsadmin -report` 명령으로 각 데이터노드가 Rack 정보를 가지는지 확인
 
    ```shell
    Configured Capacity: 19010409390080 (17.29 TB)
