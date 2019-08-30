@@ -12,8 +12,9 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 * [PostgreSQL](#PostgreSQL)
 
-  ​
 
+
+---
 
 ### Git
 * [Git install & setting](Git/Git_InstallAndSetting.md)
@@ -29,11 +30,12 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 
 
+
 ### PostgreSQL
 
 
 
-
+---
 
 ## About
 
