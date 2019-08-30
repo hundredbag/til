@@ -12,6 +12,7 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 * [PostgreSQL](#PostgreSQL)
 
+* [ShellScript](#Shell Script)
 
 ---
 
@@ -24,8 +25,8 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 ### Hadoop
 
-- [Hadoop Install](Hadoop/hadoop_install.md)
-- [HDFS Rack Setting](Hadoop/hdfs_rack_setting.md)
+* [Hadoop Install](Hadoop/hadoop_install.md)
+* [HDFS Rack Setting](Hadoop/hdfs_rack_setting.md)
 
 
 
@@ -36,9 +37,13 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 ### Linux
 
-- [Linux CPU cores enable and disable](Linux/CPU_core_enable_disable.md)
+* [Linux CPU cores enable and disable](Linux/CPU_core_enable_disable.md)
 
 
+
+### Shell Script
+
+* ​
 
 ---
 
