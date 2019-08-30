@@ -13,7 +13,6 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 * [PostgreSQL](#PostgreSQL)
 
 
-
 ---
 
 ### Git
@@ -26,12 +25,18 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 ### Hadoop
 
 - [Hadoop Install](Hadoop/hadoop_install.md)
-- [HDFS Rack Setting](hdfs_rack_setting.md)
+- [HDFS Rack Setting](Hadoop/hdfs_rack_setting.md)
 
 
 
 
 ### PostgreSQL
+
+
+
+### Linux
+
+- [Linux CPU cores enable and disable](Linux/CPU_core_enable_disable.md)
 
 
 
