@@ -116,6 +116,10 @@ I learned from [page1](http://www.upubuntu.com/2011/09/how-to-disable-cpu-core-o
   CPU 12 enabled
   ```
 
+  ```shell
+  for i in `seq 1 5`; do sudo chcpu -e $i; done
+  ```
+
   ​
 
 - 영구적으로 CPU core 갯수를 조절하려면 `/etc/grub.conf`의 kernel 부분에서 maxcpus=N 옵션을 줘야함

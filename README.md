@@ -41,9 +41,10 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 
 
-### Shell Script
 
-* ​
+### Shell Script()
+
+* [Directory exist check](ShellScript/directory_exist_or_not.md)
 
 ---
 
