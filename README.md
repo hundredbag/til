@@ -12,7 +12,7 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 * [PostgreSQL](#PostgreSQL)
 
-* [ShellScript](#Shell Script)
+* [ShellScript](#ShellScript)
 
 ---
 
@@ -42,7 +42,7 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 
 
-### Shell Script()
+### ShellScript
 
 * [Directory exist check](ShellScript/directory_exist_or_not.md)
 
