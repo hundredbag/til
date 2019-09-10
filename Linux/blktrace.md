@@ -13,5 +13,5 @@
 
   ​
 
-  ![1568103444282](.\figs\blktrace_structure.png)
+  ![1568103444282](./figs/blktrace_structure.png)
 
