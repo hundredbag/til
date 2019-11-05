@@ -14,6 +14,7 @@ current_setting
 ### How to set PostgreSQL block size
 
 Block size is determined when PostgreSQL is compiled or when it is installed.
+
 (Use `--with-blocksize` option when running the `configure` script.)
 
 * **--with-blocksize=BLOCKSIZE**
