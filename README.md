@@ -23,6 +23,7 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 * [Git install & setting](Git/Git_InstallAndSetting.md)
 * [Git Basic](Git/Git_basic.md)
+* [GitHub Desktop simple guide](Git/github_desktop.md)
 
 
 ### Hadoop
