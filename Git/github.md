@@ -12,9 +12,9 @@
 
    - README : readme 파일을 추가할 것인지 결정
 
-     ![![img](file:///C:/Users/my/AppData/Local/Temp/1537950135203.png?lastModify=1537950289)1537950135203](C:\Users\my\AppData\Local\Temp\1537950135203.png)
+     ​
 
 3. Create repository 버튼을 눌러 repository 생성
 
-   ![1537950296185](C:\Users\my\AppData\Local\Temp\1537950296185.png)
+
 

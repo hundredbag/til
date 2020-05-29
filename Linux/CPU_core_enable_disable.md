@@ -6,14 +6,14 @@ I learned from [page1](http://www.upubuntu.com/2011/09/how-to-disable-cpu-core-o
 
 - To see a list of all online CPUs
 
-  ```shell
+  ```
   # cat /sys/devices/system/cpu/online
   0-47
   ```
 
 - To see a list of all offline CPUs
 
-  ```shell
+  ```
   # cat /sys/devices/system/cpu/offline
 
   ```
@@ -21,7 +21,7 @@ I learned from [page1](http://www.upubuntu.com/2011/09/how-to-disable-cpu-core-o
 - To see CPU architecture information
   (`On-line CPU(s) list` shows the online cpu numbers)
 
-  ```bash
+  ```
   # lscpu
   Architecture:          x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -54,20 +54,20 @@ I learned from [page1](http://www.upubuntu.com/2011/09/how-to-disable-cpu-core-o
 
 - Logically turn off (offline) CPU#12 (Restored after reboot)
 
-  ```shell
+  ```
   # echo 0 > /sys/devices/system/cpu/cpu12/online
   ```
 
   or
 
-  ```shell
+  ```
   # chcpu -d 12
   CPU 12 disabled
   ```
 
 - Result (```On-line CPU(s) list```, `Off-line CPU(s) list`)
 
-  ```shell
+  ```
   # lscpu
   Architecture:          x86_64
   CPU op-mode(s):        32-bit, 64-bit
@@ -105,21 +105,19 @@ I learned from [page1](http://www.upubuntu.com/2011/09/how-to-disable-cpu-core-o
 
 - Logically turn on (online) CPU#12
 
-  ```shell
+  ```
   # echo 1 > /sys/devices/system/cpu/cpu12/online
   ```
 
   or
 
-  ```shell
+  ```
   # chcpu -e 12
   CPU 12 enabled
   ```
 
   ```shell
-  for i in `seq 1 5`; do sudo chcpu -e $i; done
+  for i in `seq 1 5`; do sudo chcpu -e $i; done​
   ```
-
-  ​
 
 - 영구적으로 CPU core 갯수를 조절하려면 `/etc/grub.conf`의 kernel 부분에서 maxcpus=N 옵션을 줘야함
