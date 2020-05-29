@@ -2,9 +2,7 @@
 
 GitHub Desktop은 GUI를 이용해서 Git, GitHub를 이용할 수 있도록 해주는 프로그램
 
-
-
-
+  
 
 ### 1. 설치
 
@@ -12,9 +10,7 @@ GitHub Desktop은 GUI를 이용해서 Git, GitHub를 이용할 수 있도록 해
 
 위 링크에서 알맞은 설치파일을 다운받은 뒤 설치
 
-
-
-
+  
 
 ### 2. Repository Clone
 
@@ -24,9 +20,7 @@ a. Repository 에서 **"Clone or download"** 클릭 후 현재 Repository의 주
 
 b. GitHub Desktop 프로그램에서 "File > Clone a repository" 클릭 후 Repository를 Clone
 
-
-
-
+  
 
 ### 3. Commit and Push
 
@@ -40,9 +34,7 @@ b. GitHub Desktop 프로그램에서 "File > Clone a repository" 클릭 후 Repo
 
 >  이 단계는 로컬에서 커밋하는 것이며, 아직 서버에는 변경이 적용되지 않은 상태
 
-
-
-
+  
 
 ***2) Push***
 
