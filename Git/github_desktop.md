@@ -4,11 +4,15 @@ GitHub Desktop은 GUI를 이용해서 Git, GitHub를 이용할 수 있도록 해
 
 
 
+
+
 ### 1. 설치
 
 <https://desktop.github.com/>
 
 위 링크에서 알맞은 설치파일을 다운받은 뒤 설치
+
+
 
 
 
@@ -22,17 +26,21 @@ b. GitHub Desktop 프로그램에서 "File > Clone a repository" 클릭 후 Repo
 
 
 
+
+
 ### 3. Commit and Push
 
 ***1) Commit***
 
-a. **현재 branch 확인** 및 **Fetch origin**  클릭하여 서버와 현재 로컬 상태를 동기화
+  a. **현재 branch 확인** 및 **Fetch origin**  클릭하여 서버와 현재 로컬 상태를 동기화
 
-b. **Chages** 에서 초록 부분은 추가된 것, 빨간 부분은 삭제된 것을 의미
+  b. **Chages** 에서 초록 부분은 추가된 것, 빨간 부분은 삭제된 것을 의미
 
-c. 왼쪽 아래에 commit message(필수)와 description(옵션) 작성 후 **Commit to $branch_name** 버튼 클릭
+  c. 왼쪽 아래에 commit message(필수)와 description(옵션) 작성 후 **Commit to $branch_name** 버튼 클릭
 
-이 단계는 로컬에서 커밋하는 것이며, 아직 서버에는 변경이 적용되지 않은 상태
+>  이 단계는 로컬에서 커밋하는 것이며, 아직 서버에는 변경이 적용되지 않은 상태
+
+
 
 
 
