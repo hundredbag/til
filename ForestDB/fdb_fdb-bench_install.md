@@ -28,6 +28,8 @@
   ForestDB_BASE=/home/baek/fdb_test/forestdb-1.0-libaio/
   ForestDB_BASE=/home/baek/fdb_test/forestdb-1.0-no_crc/
 
+
+  ForestDB_BASE=/home/baek/fdb_test/FDB_src/ldb_fdb_compare/forestdb-1.0/
   export LD_LIBRARY_PATH=$ForestDB_BASE/build
   cmake -DCMAKE_INCLUDE_PATH=$ForestDB_BASE/include -DCMAKE_LIBRARY_PATH=$ForestDB_BASE/build ../ 
 
