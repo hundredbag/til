@@ -82,6 +82,8 @@ reference : https://github.com/tvondra/pg_tpch
     3. tpch-alter.sql
     4. tpch-index.sql
 
+    * psql 에서 SQL 파일을 실행하는 방법 : `\i [실행하고자 하는 파일명]`
+
 - 임시 데이터를 다른 저장장치에 저장하고 싶으면, database 경로의 base dir 안의 pgsql_tmp dir에 장치를 mount 해서 사용하면 된다.
 
 
