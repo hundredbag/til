@@ -39,6 +39,9 @@ TIL is a collection of the things that I learned today. The contents can be anyt
 
 ### PostgreSQL
 
+* [PostgreSQL 9.3.4 Install & Init](PostgreSQL/psql_install_init.md)
+
+
 * **Managing PostgreSQL**
   * [PostgreSQL Block size](PostgreSQL/psql_blocksize.md)
 * [TPC-H benchmark for PostgreSQL](PostgreSQL/psql_use_TPCH.md)
