@@ -86,8 +86,3 @@ reference : https://github.com/tvondra/pg_tpch
 
 - 임시 데이터를 다른 저장장치에 저장하고 싶으면, database 경로의 base dir 안의 pgsql_tmp dir에 장치를 mount 해서 사용하면 된다.
 
-
-
-### TPC-H 특징
-
-> http://hundredbag.tistory.com/entry/PostgreSQL%EC%97%90%EC%84%9C-TPCH-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0?category=997133
