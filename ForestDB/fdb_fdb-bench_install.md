@@ -13,33 +13,23 @@
 - Cmake 설치 후에 아래 순서에 따라 compile, build를 수행
 
   ```shell
-  git clone ForestDB-Benchmark_repo_url
+  git clone [ForestDB-Benchmark_repo_url]
   cd ForestDB-Benchmark
   mkdir build
   cd build
   cmake ../
 
-  ForestDB_BASE=/home/baek/fdb_dev/forestdb-io_uring/
   ForestDB_BASE=/home/baek/forestdb-1.0/
-  ForestDB_BASE=/home/baek/fdb_dev/forestdb-1.0-only_uring-test
-  ForestDB_BASE=/home/baek/fdb_dev/forestdb-1.0-dev-ing
-  ForestDB_BASE=/home/baek/fdb_dev/forestdb-1.0-pread/
-
-  ForestDB_BASE=/home/baek/fdb_test/forestdb-1.0-libaio/
-  ForestDB_BASE=/home/baek/fdb_test/forestdb-1.0-no_crc/
-
-  ForestDB_BASE=/home/baek/fdb_test/FDB_src/ldb_fdb_compare/forestdb-1.0/
 
   export LD_LIBRARY_PATH=$ForestDB_BASE/build
 
-  cmake -DCMAKE_INCLUDE_PATH=ForestDB_BASE/include -DCMAKE_LIBRARY_PATH=ForestDB_BASE/build ../ 
+  cmake -DCMAKE_INCLUDE_PATH=$ForestDB_BASE/include -DCMAKE_LIBRARY_PATH=$ForestDB_BASE/build ../ 
 
   make fdb_bench
   ```
 
 
 
-  ```
 
 ### Trouble shooting
 
@@ -48,9 +38,6 @@
 - `export LD_LIBRARY_PATH=$ForestDB_BASE/build` 를 통해 라이브러리 경로 지정
 - `block_reusing_threshold` 변수가 정의되지 않았다는 에러 발생 => 해당 line 제거해도 benchmark 동작함.
 
-
-
-
-
+  ```
 g++ -g -Wall -O0 compaction_test.cc -I ~/fdb_test/forestdb-1.0-libaio/include/ -L ~/fdb_test/forestdb-1.0-libaio/build/ -lforestdb
   ```
