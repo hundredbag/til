@@ -19,3 +19,4 @@ io_poll을 키려면 poll_queue 값이 양수값으로 세팅되어야하는데 
 poll_queue 값과 io_poll 모두 세팅 되어서 부팅 됨.
 
 자세한건 심사 끝나고 정리.
+
